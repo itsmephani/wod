@@ -20,7 +20,7 @@ export class ExerciseListComponent implements OnInit {
   shuffle() {
     const pickedIndices: number[] = [];
     while(this.exercises.length != 4) {
-      const randomInt = CommonService.getRandomInt(Exercises.length);
+      const randomInt = CommonService.getRandomInt(Exercises.length - 1);
       if (pickedIndices.includes(randomInt)) {
         return;
       }
