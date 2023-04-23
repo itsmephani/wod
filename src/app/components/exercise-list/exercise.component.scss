@@ -1,0 +1,16 @@
+.exercise {
+  background-color: whitesmoke;
+  margin: 4px 0;
+  padding: 8px;
+
+  .name {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  .video-frame {
+    height: 320px;
+    max-width: 100%;
+    width: 480px;
+  }
+}

@@ -1,0 +1,5 @@
+<div class="exercise" *ngFor="let exercise of exercises"> 
+  <div class="name"> {{exercise.name}} </div>
+  <iframe class="video-frame" [src]="exercise.videoUrl | safeUrl" *ngIf="exercise.videoUrl" ></iframe>
+</div>
+
